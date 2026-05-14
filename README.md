@@ -27,7 +27,7 @@ No frameworks, no build step — just the fundamentals.
 ## Project Structure
 
 ```
-celestialwake-site/
+celestialwake-website/
 ├── index.html              # Landing page
 ├── about.html              # About page
 ├── products.html           # Products showcase
@@ -44,8 +44,8 @@ celestialwake-site/
 Clone the repo and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/jeffdecker/celestialwake-site.git
-cd celestialwake-site
+git clone https://github.com/jeffdecker/celestialwake-website.git
+cd celestialwake-website
 open index.html
 ```
 
