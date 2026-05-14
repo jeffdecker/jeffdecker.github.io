@@ -86,6 +86,13 @@ footer {
   z-index: 1;
 }
 
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 /* About page */
 .about-page {
   justify-content: flex-start;
@@ -181,12 +188,12 @@ footer {
   margin-top: 1rem;
 }
 
-.products-content h3 {
-  font-size: 1rem;
-  font-weight: 300;
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
-  color:#b0b0b379
+.products-content .product-type {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .products-content section p {
@@ -195,6 +202,7 @@ footer {
   margin: 2rem 0 1.2rem;
   text-align: left;
   font-weight: 300;
+  text-align: center;
 }
 
 .products-content section img {
